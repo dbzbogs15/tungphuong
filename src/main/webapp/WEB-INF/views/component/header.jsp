@@ -31,12 +31,33 @@
         text-overflow: ellipsis;
         overflow: hidden;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
-        max-width: 255.5px;
+        -webkit-line-clamp: 1;
+        max-width: 256px;
         display: -webkit-box;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: 400;
         color: #696763;
     }
+    .box_search {
+        width: 100%;
+        border: 1px solid #5bc0de;
+        position: absolute;
+        z-index: 999;
+        background-color: #fff;
+        max-height: 391px;
+        overflow: scroll;
+    }
+    .box_search hr {
+        margin: 0;
+    }
+    .name_product {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        max-width: 256px;
+        display: -webkit-box;
+    }
+
 </style>

@@ -365,7 +365,6 @@
                                             <p>Easy Polo Black Edition</p>
                                             <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -480,6 +479,9 @@
         $.ajax({
             url: '${pageContext.request.contextPath}/product/all',
             method: 'GET',
+            data: {
+              maxSize: 6
+            },
             dataType: 'json',
             success: function (data) {
                 console.log(data)

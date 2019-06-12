@@ -161,6 +161,19 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <a href="#">
+            <div class="col-sm-4">
+                <img src="https://stackjava.com/wp-content/uploads/2019/04/sdkman-logo-300x300.jpg" width="64px">
+            </div>
+            <div class="col-sm-8">
+                <h4>Tên sản phẩm</h4>
+                <span>Giá: 500.000đ</span>
+            </div>
+        </a>
+    </div>
+    <hr>
+
 
 </footer><!--/Footer-->
 <script src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
@@ -169,3 +182,53 @@
 <script src="${pageContext.request.contextPath}/resources/js/price-range.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.prettyPhoto.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/main.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#box_search').hide();
+        $('#inputSeach').focusout(function () {
+            $('#box_search').hide();
+        })
+        $('#inputSeach').keyup(function () {
+            console.log("aaaa")
+            var name = $('#inputSeach').val();
+            console.log(name.length == 0)
+            if(name.length == 0) {
+                $('#box_search').hide();
+                return;
+            }
+            $.ajax({
+                url: '${pageContext.request.contextPath}/product/search',
+                data: {
+                    name: name
+                },
+                dataType: 'json',
+                success: function (data) {
+                    $('#box_search').empty();
+                    var size = data.length;
+                    if(size > 0) {
+                        $.each(data, function (index, item) {
+                            $('#box_search').append(
+                                '<div class="row">' +
+                                    '<a href="${pageContext.request.contextPath}/product/details?id='+item.id+'">' +
+                                        '<div class="col-sm-4">' +
+                                            '<img src="${pageContext.request.contextPath}/'+item.image+'" width="64px">' +
+                                        '</div>' +
+                                        '<div class="col-sm-8">' +
+                                            '<h5 class="name_product">'+item.name+'</h5>' +
+                                            '<span>Giá: '+item.price.toLocaleString().replace(",",".")+'đ</span>' +
+                                        '</div>'+
+                                    '</a>' +
+                                '</div>' +
+                                '<hr>'
+                            )
+                        })
+                        $('#box_search').show();
+                    } else if(size == 0 || $('#box_search').val() == null) {
+                        $('#box_search').hide()
+                    }
+                }
+
+            })
+        })
+    })
+</script>

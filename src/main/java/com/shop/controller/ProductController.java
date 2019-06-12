@@ -20,12 +20,18 @@ public class ProductController {
 
     @GetMapping("/all")
     @ResponseBody
-    public List<Product> products() {
-        return productService.getAll();
+    public List<Product> products(@RequestParam int maxSize) {
+        return productService.getAll(maxSize);
     }
     @GetMapping("/details")
     public String details(@RequestParam Integer id, ModelMap modelMap) {
         modelMap.addAttribute("product", productService.getProduct(id));
         return "product_detail";
+    }
+
+    @GetMapping("/search")
+    @ResponseBody
+    public List<Product> search(@RequestParam String name) {
+        return productService.getProductByName(name);
     }
 }

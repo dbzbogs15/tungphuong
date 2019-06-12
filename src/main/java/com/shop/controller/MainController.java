@@ -14,7 +14,6 @@ public class MainController {
 
     @RequestMapping("/")
     public String main() {
-        System.out.println(productService.getAll().size());
         return "index";
     }
 }
