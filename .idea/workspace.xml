@@ -7,62 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca30023-b44d-4153-b556-8198f6ad1114" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/balohocsinh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/balorabit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/baloxanhla.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/bangvietbutlongth01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/bangvietphanbp02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/bangvietphanbp16xanh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/bo2gomtaybutchicua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/bo4thuockehocsinh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/bogomtay4chuongvang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/bopvietdoraemon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/bopvietorganicmilk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/bopviettotoro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/caphocsinhchonggu11055.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/caphocsinhstar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/compaaihuaah1009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/compadeli8615.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/compadeli8621.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/cạphocsinhscholar21005d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/gotbutchicavoi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/gotbutchideli.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/gotbutchihinhcumeo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/hop32gomtayhonger10pk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/hopbutdragonball.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/hopbutgo01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/hopdungbutdethuong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/sapnanhoctajp5mauneon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/sapnanhoctap10mauthuong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/sapnanhoctap12mauthuong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/taphocsinhfuturebook01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/taphocsinhfuturebooknhidong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/taphocsinhtikilantoaniemvui.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/thuockebt21mika.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/product/thuocketichhopmaytinhthongminh.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/dao/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/component/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/component/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/component/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/component/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/component/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/component/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/dao/ProductDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/classes/com/shop/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/classes/com/shop/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/classes/com/shop/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/classes/com/shop/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/classes/com/shop/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/classes/com/shop/dao/ProductDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/classes/com/shop/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/classes/com/shop/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/classes/com/shop/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/classes/com/shop/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/views/component/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/views/component/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/views/component/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/views/component/navbar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/tool-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -402,7 +347,7 @@
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560340599830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560341045559" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -553,16 +498,15 @@
       <workItem from="1560079870292" duration="2556000" />
       <workItem from="1560083955177" duration="4657000" />
       <workItem from="1560146079437" duration="7252000" />
-      <workItem from="1560332512016" duration="8071000" />
+      <workItem from="1560332512016" duration="8555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36982000" />
+    <option name="totallyTimeSpent" value="37466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -575,14 +519,14 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22379604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5240793" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
