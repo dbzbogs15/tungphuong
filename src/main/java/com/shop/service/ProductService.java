@@ -41,7 +41,7 @@ public class ProductService implements ProductDAO {
         session.beginTransaction();
         String sql = "from Product where name like :name";
         Query query = session.createQuery(sql);
-        query.setParameter("name", "%" + name +"%");
+        query.setParameter("name", "%" + name + "%");
         List<Product> list = query.getResultList();
         session.getTransaction().commit();
         session.close();

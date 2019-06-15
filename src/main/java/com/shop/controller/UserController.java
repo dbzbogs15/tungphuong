@@ -26,7 +26,7 @@ public class UserController {
                         RedirectAttributes rd, HttpSession session) {
         User user = userService.login(email, password);
         System.out.println(user.toString());
-        if(user == null) {
+        if (user == null) {
             rd.addFlashAttribute("message", "Sai thông tin đăng nhập");
             return "redirect:/user/login";
         }
@@ -50,5 +50,11 @@ public class UserController {
         userService.addUser(user);
         rd.addFlashAttribute("message", "Đăng ký thành công!");
         return "redirect:/user/login";
+    }
+
+    @GetMapping("/logout")
+    public String logout(HttpSession session) {
+        session.removeAttribute("user");
+        return "redirect:/";
     }
 }

@@ -6,6 +6,8 @@ import java.util.List;
 
 public interface ProductDAO {
     List<Product> getAll(int pageSize);
+
     Product getProduct(Integer id);
+
     List<Product> getProductByName(String name);
 }

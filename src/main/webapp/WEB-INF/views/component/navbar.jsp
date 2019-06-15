@@ -129,26 +129,30 @@
                                     Checkout</a>
                             </li>
                             <li>
-                                <a href="cart.html"><i
+                                <a href="${pageContext.request.contextPath}/cart/index"><i
                                         class="fa fa-shopping-cart"></i>
                                     Giỏ
-                                    hàng</a>
+                                    hàng <span id="cart_quantity">(0)</span></a>
                             </li>
                             <c:choose>
                                 <c:when test="${sessionScope.user == null}">
                                     <li>
-                                        <a href="${pageContext.request.contextPath}/user/login"><i
-                                                class="fa fa-lock"></i>
-                                            Đăng
-                                            nhập</a>
+                                        <a href="${pageContext.request.contextPath}/user/login">
+                                            <i class="fa fa-lock"></i>
+                                            Tài khoản
+                                        </a>
                                     </li>
                                 </c:when>
                                 <c:otherwise>
                                     <li>
-                                        <a href="#"><i
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
                                                 class="fa fa-user"></i>
-                                            Tài
-                                            khoản</a>
+                                            Chào: ${sessionScope.user.name}</a>
+                                        <ul class="dropdown-menu" style="columns: 1">
+                                            <li><a href="#">Thông tin cá nhân</a></li>
+                                            <li><a href="#">Đổi mật khẩu</a></li>
+                                            <li><a href="${pageContext.request.contextPath}/user/logout">Đăng xuất</a></li>
+                                        </ul>
                                     </li>
                                 </c:otherwise>
                             </c:choose>
@@ -189,23 +193,7 @@
                                     phẩm<i class="fa fa-angle-down"></i></a>
                                 <ul role="menu"
                                     class="sub-menu"
-                                    style="columns: 3">
-                                    <li>
-                                        <a href="shop.html">Products</a>
-                                    </li>
-                                    <li>
-                                        <a href="product-details.html">Product
-                                            Details</a>
-                                    </li>
-                                    <li>
-                                        <a href="checkout.html">Checkout</a>
-                                    </li>
-                                    <li>
-                                        <a href="cart.html">Cart</a>
-                                    </li>
-                                    <li>
-                                        <a href="login.html">Login</a>
-                                    </li>
+                                    id="list_catalog">
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -237,7 +225,8 @@
                         <input type="text"
                                id="inputSeach"
                                placeholder="Tìm kiếm sản phẩm"/>
-                        <div class="box_search" id="box_search">
+                        <div class="box_search"
+                             id="box_search">
                         </div>
                     </div>
                 </div>

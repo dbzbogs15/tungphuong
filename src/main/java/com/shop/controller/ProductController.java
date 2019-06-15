@@ -23,6 +23,7 @@ public class ProductController {
     public List<Product> products(@RequestParam int maxSize) {
         return productService.getAll(maxSize);
     }
+
     @GetMapping("/details")
     public String details(@RequestParam Integer id, ModelMap modelMap) {
         modelMap.addAttribute("product", productService.getProduct(id));
